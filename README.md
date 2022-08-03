@@ -41,4 +41,14 @@ A motion detection was performed using some algorithms on the original videos to
 
 ATTACKED VIDEOS
 
-Attacks was simulated against the encrypted FG object
+Different types of attacks was simulated against the encrypted FG object. 
+
+The inverse attack, lowercase attack, uppercase attack, random-insertion attack and malleability attack was launched against the FG encrypted videos.
+
+Five different frames (Frame 20, 30, 40, 50, 60) was attacked in the video and the results are stored in the attacked-video folder for general usage.
+
+The FG attacked encrypted and attacked decrypted are stored in this repository.
+
+Comparing the FG encrypted videos with attack and the FG encrypted video without attack has a clear visibility. Likewise, after decryption of the FG encrypted videos, the attack was clearly visible on these videos.
+
+Please, reference this repository if any of these frames are used by you.
