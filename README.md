@@ -14,8 +14,13 @@ STATIC VIDEOS: These are videos gotten from CCTV recordings that are fixed to a 
 DYNAMIC VIDEOS: These are aerial view videos gotten from drone, pan-tilt-zoom (PTZ), dashboard cams, and Unmanned Aerial Vehicles (UAV) recordings. The camera records while in motion which makes it look like the bakground is moving. The foreground are the actual objects in motion.
 
 These video were retrieve from 
+
 [1] Pexels, Pexels webpage, 2020. URL: https://www.pexels.com/ last accessed 2020-11-30
+
+
 [2] Pixabay, Pixabay webpage, 2020. URL: https://pixabay.com/videos/ last accessed 2020-11-30
+
+
 [3] Motchallenge, Motchallenge webpage, 2020. URL: https://motchallenge.net/data/MOT16/ last accessed 2021-03-20
 
 
