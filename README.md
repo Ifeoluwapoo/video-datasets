@@ -9,11 +9,11 @@ These videos are classified into Two groups
   1. Static videos
   2. Dynamic videos
 
-STATIC VIDEOS: These are videos gotten from CCTV recordings that are fixed to a particular location, thus the background is static and the foreground are object in motion.
+STATIC VIDEOS: These are videos gotten from CCTV recordings that are fixed to a particular location, thus the background is static and the foreground is objects in motion.
 
-DYNAMIC VIDEOS: These are aerial view videos gotten from drone, pan-tilt-zoom (PTZ), dashboard cams, and Unmanned Aerial Vehicles (UAV) recordings. The camera records while in motion which makes it look like the bakground is moving. The foreground are the actual objects in motion.
+DYNAMIC VIDEOS: These are aerial view videos gotten from drones, pan-tilt-zoom (PTZ), dashboard cams, and Unmanned Aerial Vehicles (UAV) recordings. The camera records while in motion which makes it look like the background is moving. The foreground is the actual objects in motion.
 
-These video were retrieve from 
+These videos were retrieved from 
 
 [1] Pexels, Pexels webpage, 2020. URL: https://www.pexels.com/ last accessed 2020-11-30
 
@@ -27,7 +27,7 @@ These video were retrieve from
 
 ENCRYPTED VIDEOS
 
-A motion detection was performed using some algorithms on the original videos to separate the objects in motion from the static objects. For the static camera the gaussian mixture method (GMM) [4] was used and for the dynamic camera advance flow of motion (AFOM) [5] was used. After detection, a global thresholding [6] was implemented to segment the foreground (FG) from the background (BG). FG are the objects in motion while BG are the static objects. After segmentation, Chacha20 [7] a stream cipher algorithm, was implemented on the FG objects and are stored securly.
+Motion detection was performed using some algorithms on the original videos to separate the objects in motion from the static objects. For the static camera the Gaussian mixture method (GMM) [4] was used and for the dynamic camera advance flow of motion (AFOM) [5] was used. After detection, global thresholding [6] was implemented to segment the foreground (FG) from the background (BG). FG are the objects in motion while BG are the static objects. After segmentation, Chacha20 [7] a stream cipher algorithm, was implemented on the FG objects and stored securely.
 
 [4] Gupta, T. Sortrakul, A gaussian-mixture-based image segmentation algorithm, Pattern Recognition 31 (1998) 315–325.
 
@@ -39,16 +39,16 @@ A motion detection was performed using some algorithms on the original videos to
 
 
 
-ATTACKED VIDEOS
+ATTACKS / TAMPERING ON VIDEOS
 
-Different types of attacks was simulated against the encrypted FG object. 
+Different types of attacks were simulated against the encrypted FG object. 
 
-The inverse attack, lowercase attack, uppercase attack, random-insertion attack and malleability attack was launched against the FG encrypted videos.
+The lowercase attack, uppercase attack, and random-insertion attack were launched against the FG encrypted videos.
 
-Five different frames (Frame 20, 30, 40, 50, 60) was attacked in the video and the results are stored in the attacked-video folder for general usage.
+Random frames were attacked in the video and the results are stored in the tampered_encrypted_videos folder for general usage.
 
 The FG attacked encrypted and attacked decrypted are stored in this repository.
 
-Comparing the FG encrypted videos with attack and the FG encrypted video without attack has a clear visibility. Likewise, after decryption of the FG encrypted videos, the attack was clearly visible on these videos.
+Comparing the FG encrypted videos with an attack and the FG encrypted video without an attack doesn't have clear visibility. Likewise, after the decryption of the FG encrypted videos with attacks or tampering have, clearly visible attacks on these videos.
 
 Please, reference this repository if any of these frames are used by you.
