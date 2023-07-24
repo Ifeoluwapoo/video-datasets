@@ -1,5 +1,5 @@
 # Video-datasets
-These are video datasets used for the research experiment of encryption and attacks
+These are video datasets used for the research experiment of encryption and tampering
 
 
 The original videos are stored in the original-videos folder, the encrypted videos are stored in the encrypted-videos folder, and the attacked videos are stored in the attacked-videos folder.
